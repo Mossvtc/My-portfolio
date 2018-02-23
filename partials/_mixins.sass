@@ -1,0 +1,72 @@
+=transition
+	-moz-transition: ease-in-out .4s
+	-o-transition: ease-in-out .4s
+	-webkit-transition: ease-in-out .4s
+	transition: ease-in-out .4s
+
+
+=about-me-transition
+	-moz-transition: ease-in-out .5s
+	-o-transition: ease-in-out .5s
+	-webkit-transition: ease-in-out .5s
+	transition: ease-in-out .5s
+
+
+
+
+=sliding
+	-moz-transition: width .4s ease-in-out, background-color .4s ease-in-out
+	-o-transition: width .4s ease-in-out, background-color .4s ease-in-out
+	-webkit-transition: width .4s ease-in-out, background-color .4s ease-in-out
+	transition: width .4s ease-in-out, background-color .4s ease-in-out
+
+
+=animate
+	-webkit-animation: fadeIn 1.3s forwards easin-in
+	animation: fadeIn 1.3s forwards ease-in
+
+	@-webkit-keyframes fadeIn
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+
+	@keyframes fadeIn
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+
+
+
+
+=icons
+	-webkit-animation: animatePic 1s forwards linear
+	animation: animatePic 1s forwards linear
+
+	@-webkit-keyframes animatePic
+		0%
+			visibility: hidden
+			opacity: 0
+			-webkit-transform: scale(0.6)
+			transform: scale(0.6)
+		100%
+			-webkit-transform: scale(1)
+			transform: scale(1)
+			visibility: visible
+			opacity: 1
+
+	@keyframes animatePic
+		0%
+			visibility: hidden
+			opacity: 0
+			-webkit-transform: scale(0.6)
+			transform: scale(0.6)
+		100%
+			-webkit-transform: scale(1)
+			transform: scale(1)
+			visibility: visible
+			opacity: 1
+
+
+
